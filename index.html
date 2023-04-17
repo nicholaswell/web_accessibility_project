@@ -163,29 +163,21 @@
         <!-- Start Column 2 -->
         <div class="col-lg-6">
           <h1>The WAI Initiative</h1>
-          <strong>Subject</strong>
+          <strong>What is the Web Accessibility Initiative?</strong>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis, doloremque accusamus! Deserunt consectetur eaque
-            reprehenderit debitis dolor voluptatibus iure maxime cumque
-            doloremque at velit consequuntur, molestiae aperiam libero error
-            perferendis.
+            The World Wide Web Consortium’s (W3C) commitment to lead the web to its full potential includes promoting 
+            a high degree of usability for people with disabilities. The Web Accessibility Initiative (WAI) 
+            is an initiative of the W3C.
           </p>
-          <strong>Subject</strong>
+          <strong>What does the WAI Do?</strong>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis, doloremque accusamus! Deserunt consectetur eaque
-            reprehenderit debitis dolor voluptatibus iure maxime cumque
-            doloremque at velit consequuntur, molestiae aperiam libero error
-            perferendis.
+            The WAI carries out many things such as ensuring the standards support accessibility, 
+            developing accessibility guidelines, supporting education on the matter of accessibility, and coordinating research and development
+            relating to accessibility.
           </p>
-          <strong>Subject</strong>
+          <strong>Where Can I Learn More?</strong>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis, doloremque accusamus! Deserunt consectetur eaque
-            reprehenderit debitis dolor voluptatibus iure maxime cumque
-            doloremque at velit consequuntur, molestiae aperiam libero error
-            perferendis.
+            You can learn more about web accessibility and specifically the WAI at <a href = "https://www.w3.org/WAI/">this</a> link.
           </p>
           <!-- Start Column 2 -->
           <div class="button-container d-flex justify-content-center mt-5">
@@ -195,8 +187,8 @@
               data-bs-container="body"
               data-bs-toggle="popover"
               data-bs-placement="top"
-              title="Title"
-              data-bs-content="Body"
+              title="W3C"
+              data-bs-content="The World Wide Web Consortium (W3C) develops international standards for the Web: HTML, CSS, and many more."
             >
               <span>W3C</span>
             </button>
@@ -207,8 +199,8 @@
               data-bs-container="body"
               data-bs-toggle="popover"
               data-bs-placement="top"
-              title="Title"
-              data-bs-content="Body"
+              title="WAI"
+              data-bs-content="The W3C Web Accessibility Initiative (WAI) develops standards and support materials to help you understand and implement accessibility."
             >
               <span>WAI</span>
             </button>
@@ -219,8 +211,8 @@
               data-bs-container="body"
               data-bs-toggle="popover"
               data-bs-placement="top"
-              title="Title"
-              data-bs-content="Body"
+              title="You"
+              data-bs-content="You can use W3C WAI resources to make your websites, applications, and other digital creations more accessible and usable to everyone."
             >
               <span>You</span>
             </button>
@@ -344,10 +336,9 @@
           <h1 class="text-center">Web Content Accessibility Guidelines</h1>
           <div class="content d-flex">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              laborum consequuntur nostrum atque? Odit similique expedita
-              voluptates assumenda consequuntur eius exercitationem neque maxime
-              explicabo tempora? Quod maiores natus assumenda temporibus.
+              WCAG 3 is the upcoming version of Web Content Accessibility Guidelines by WAI. It's being developed with updated 
+              guidelines and success criteria to improve web content accessibility for people with disabilities. WCAG 3 aims to make
+               emerging technologies, such as mobile and wearable devices, more accessible to users with disabilities.
             </p>
             <img
               src="/images/wcag.jpg"
@@ -369,12 +360,12 @@
             <div class="content d-flex">
               <p>
                Semantic tags are text identifiers that describe the meaning and purpose of data 
-               or elements1234. They can be used to apply a common understanding across different 
-               data sources2, to simplify the calculation of measures and KPIs for reports3, to help 
-               screen readers and code optimization5, and to introduce new elements in HTML5
+               or elements. They can be used to apply a common understanding across different 
+               data sources, to simplify the calculation of measures and KPIs for reports, to help 
+               screen readers and code optimization, and to introduce new elements in HTML.
               </p>
               <img
-                src="/images/wcag.jpg"
+                src="/images/semantic.png"
                 style="width: 200px; height: 200px"
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
@@ -398,7 +389,7 @@
                     aria-expanded="true"
                     aria-controls="collapseFive"
                   >
-                    Header
+                    What is ARIA?
                   </button>
                 </h2>
                 <div
@@ -408,7 +399,8 @@
                   data-bs-parent="#accordionARIA"
                 >
                   <div class="accordion-body">
-                    Body
+                      Aria is attributes you can add to HTML elements that make them more accessibile to users with disabilities who utilize assistive technologies
+                      such as screen readers.
                   </div>
                 </div>
               </div>
@@ -423,7 +415,7 @@
                     aria-expanded="false"
                     aria-controls="collapseSix"
                   >
-                    Header
+                    What can ARIA Do?
                   </button>
                 </h2>
                 <div
@@ -433,7 +425,9 @@
                   data-bs-parent="#accordionARIA"
                 >
                   <div class="accordion-body">
-                    Body
+                    ARIA has three components that are roles, states, and properties. Roles define a type of UI element. Different roles can be helpful for different 
+                    purposes. For example, a landmark role provides easier navigation as it identifies each section of a webpage. States and properties are used to 
+                    support ARIA roles. 
                   </div>
                 </div>
               </div>
@@ -448,7 +442,7 @@
                     aria-expanded="false"
                     aria-controls="collapseSeven"
                   >
-                    Header
+                    When to Not Use ARIA
                   </button>
                 </h2>
                 <div
@@ -458,7 +452,9 @@
                   data-bs-parent="#accordionARIA"
                 >
                   <div class="accordion-body">
-                    Body
+                    The first rule is that you must use native HTML at all times unless it is for sure impossible you can't make it accessible otherwise. The second rule is 
+                    to not change HTML semantics unless you have to. The third rule is that all interactive ARIA controls must be accessible. A final rule is that you must 
+                    give all elements an accessible name.
                   </div>
                 </div>
               </div>
@@ -473,7 +469,7 @@
                     aria-expanded="false"
                     aria-controls="collapseEight"
                   >
-                    Header
+                    When to Use ARIA
                   </button>
                 </h2>
                 <div
@@ -483,7 +479,7 @@
                   data-bs-parent="#accordionARIA"
                 >
                   <div class="accordion-body">
-                    Body
+                    You should use ARIA when needing to add more descriptive labels to buttons, for alerts, for relationships, and forms. 
                   </div>
                 </div>
               </div>
